@@ -8,15 +8,13 @@
 
 ابتدا تمامی فایل ها را در سرور خود آپلود کنید 
 
-فایل index.php رو در لاین 7 ویرایش کنید و آدرس دامنه خود را بگذارید
-
-در فایل tab.php میتوانید تبلیغات خود را بگذارید و صفحه تبلیغات خود را شخصی سازی کنید 
-
-و در نهایت با اجرا کردن index.php و دادن پارمتر های name , link میتوانید لینک خود را کوتاه کنید 
+مسیر فایل رو باز میکنید و به فایل 3 پارامتر text , lan , to میدهید
 
 مثال : 
 
-https://yourdomain.com/index.php?name=monster_hp&url=https://t.me/monster_hp
+https://yourdomain.com/index.php?lan=en&to=fa&text=hello
+
+در اینجا lan زبان متن شما که میخواهید ترجمه شود و to به چه زبانی ترجمه شود و text هم متن یا جمله شما میباشد به جای space از + استفاده کنید
 
 خروجی شما بصورت جیسون خواهد بود
 
@@ -24,23 +22,21 @@ https://yourdomain.com/index.php?name=monster_hp&url=https://t.me/monster_hp
 
 -------------------------------------------------------------------------
 
-# Link Shortener
+# Google Translator
 
-A link shortener service with a custom domain
+The translator web service that is connected to Google translator and has most of its languages
 
 ## How to run:
 
 First, upload all the files to your server
 
-Edit the file index.php in line 7 and put your domain address
-
-In the tab.php file, you can put your ads and personalize your ads page
-
-And finally, you can shorten your link by running index.php and giving name and link parameters
+You open the path of the file and give the file 3 parameters: text, lan, and to
 
 Example :
 
-https://yourdomain.com/index.php?name=monster_hp&url=https://t.me/monster_hp
+https://yourdomain.com/index.php?lan=en&to=fa&text=hello
+
+Here, lan is the language of your text that you want to be translated, and to which language to be translated, and text is your text or sentence, use + instead of space.
 
 Your output will be as Json
 
